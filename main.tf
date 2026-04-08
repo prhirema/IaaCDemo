@@ -9,7 +9,7 @@ resource "aws_instance" "example" {
   key_name      = "UCD_PLUGINS"
 
   tags = {
-    Name = "IAAC-AWS-NEW-VM"
+    Name = "IAAC-AWS-NEW-VM-DEMO"
   }
   
   associate_public_ip_address = false
