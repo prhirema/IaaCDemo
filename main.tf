@@ -4,12 +4,12 @@ provider "aws" {
 
 resource "aws_instance" "example" {
   ami           = "ami-01816d07b1128cd2d"
-  instance_type = "t2.small"
+  instance_type = "t2.micro"
   subnet_id     = "subnet-056a7f61"
   key_name      = "UCD_PLUGINS"
 
   tags = {
-    Name = "VMTerraformDemo"
+    Name = "IAACTerraformDemo"
   }
   
   associate_public_ip_address = false
