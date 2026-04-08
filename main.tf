@@ -9,7 +9,7 @@ resource "aws_instance" "example" {
   key_name      = "UCD_PLUGINS"
 
   tags = {
-    Name = "IAACTerraformDemo-testing123"
+    Name = "IAACTerraformDemo-testing1234"
   }
   
   associate_public_ip_address = false
